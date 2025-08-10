@@ -1,0 +1,98 @@
+/*REVIEWS*/
+main{
+    padding-top: 15em;
+    text-align: center;
+}
+
+form{
+    text-align: justify;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid rgb(70, 45, 30);
+    display: block;
+    margin-bottom: 2em;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 5px rgb(185, 167, 156);
+    background-color: rgb(233, 221, 208);  
+}
+
+form p{
+    margin-top: 0;
+    border-bottom: 2px solid rgb(70, 45, 30);
+    background-color: white;
+    font-weight: bold;
+    padding-left: .5em;
+}
+
+input[name="Stars"]{
+    width: 3em;
+    
+}
+
+label{
+    display: inline-block;
+    margin: .5em;
+}
+label:nth-child(n+4){
+    display: block;
+}
+input[name="Title"]{
+    width: 22em;
+}
+input[name="Description"]{
+    width: 18em;
+    height: 10em;
+    vertical-align: top;
+}
+
+
+#reviews {
+
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#reviews {
+    background-image: url(Images/Branding/background.png);
+    border: 2px solid rgb(70, 45, 30);
+    font-size: .9em;
+    height: 15em;
+    margin: 2%;
+    overflow: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 5px 5px 5px rgb(185, 167, 156);
+
+}
+
+
+
+#reviews h4 {
+    margin-bottom: 1%;
+    text-align: left;
+    margin-left: .2em;
+    
+
+}
+
+#reviews p {
+    margin: 1%;
+    text-align: justify;
+}
+
+@media (width >=800px)
+{
+    form,#reviews{
+        display: inline-block;
+        margin-top: 1%;
+        vertical-align: top;
+    }
+    form{
+        width: 20em;
+    }
+    #reviews{
+        height: 30em;
+        width: 40em;
+    }
+}

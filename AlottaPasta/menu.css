@@ -1,0 +1,128 @@
+/*MENU*/
+
+header{
+    position:static;
+    margin: auto;
+    max-width: 100%;
+}
+main{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+ol {
+    background-color: rgb(250, 245, 235);
+    /*border: 4px double rgb(70, 45, 30);*/
+    /*border-radius: 35px;*/
+
+    /*float: left;*/
+    list-style: none;
+    margin-top: 2%;
+    max-width: fit-content;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    margin-right: 0;
+    position: fixed;
+    top:13em;
+    z-index: 1;
+    font-style: italic;
+}
+
+ol li {
+
+    font-size: 1.5em;
+    text-shadow: 5px 4px 7px;
+    padding-left: .3em;
+    padding-right: .3em;
+    margin: 0;
+    background: linear-gradient(152deg,
+            rgba(250, 245, 235, 1) 1%,
+            rgba(247, 208, 148, 1) 29%,
+            rgba(250, 245, 235, 1) 49%,
+            rgba(247, 208, 148, 1) 64%,
+            rgba(250, 245, 235, 1) 83%);
+    border: 1px solid rgb(70, 45, 30);
+
+}
+
+li a:hover {
+    background-color: inherit;
+    color: inherit;
+    text-shadow: -3px -3px 8px white, 3px 3px 8px white;
+}
+
+li a:active {
+    opacity: .5;
+}
+
+li:hover {
+    scale: 1.3 1.3;
+
+}
+
+#menu {
+
+
+    vertical-align: top;
+    background-image: url(Images/Branding/background.png);
+    border: 8px double rgb(70, 45, 30);
+
+    font-style: normal;
+
+    margin: auto;
+
+    max-width: 75%;
+    overflow: auto;
+    overflow-y: auto;
+    padding: 0;
+    text-align: center;
+}
+
+#menu h4 {
+    border-bottom: 1px solid rgb(70, 45, 30);
+    font-style: italic;
+}
+
+#menu h5 {
+    margin-bottom: 0.1%;
+    margin-top: 4.5%;
+}
+
+#menu p {
+    font-style: italic;
+    margin-bottom: 0.1%;
+    margin-top: 0.1%;
+    clear: both;
+}
+
+#menu img {
+    border-radius: 30%;
+    float: left;
+    height: auto;
+    margin: 2%;
+    vertical-align: middle;
+    width: 40%;
+}
+
+#menu section {
+    background-color: rgb(233, 221, 208);
+    border: 2px solid rgb(70, 45, 30);
+    border-radius: 20px;
+    display: inline-block;
+    height: auto;
+    margin: 20px;
+    overflow: auto;
+    padding: 2%;
+    position: relative;
+    width: 35%;
+}
+
+#menu section:hover {
+    scale: 1.2 1.2;
+
+    cursor: help;
+
+}
+
+

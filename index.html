@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        html {
+            scroll-padding-top: 4em;
+        }
+
+        body {
+            padding-top: 56px;
+        }
+
+        .hero {
+            background-color: #f8f9fa;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .section-title {
+            margin-top: 60px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Aaron Gluck</h1>
+            <p class="lead">Aspiring Full Stack Developer</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            I’m a full-stack web developer in training, passionate about building clean and functional web applications.
+            I work with both front-end and back-end technologies and love connecting logic with design.
+        </p>
+        <p>
+            <strong>Front-End:</strong> HTML, CSS, Bootstrap, Sass, JavaScript, TypeScript, React<br>
+            <strong>Back-End:</strong> Node.js, Express, SQLite, SQL, C#<br>
+            <strong>Other:</strong> Git, GitHub, REST APIs
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Rock Paper Scissors (C#)</h5>
+                        <p class="card-text">Console-based game using bitwise operations to determine the winner.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Alotta Pasta Website</h5>
+                        <p class="card-text">A HTML CSS site for a fictional Italian restaurant. Menus, hours, and
+                            contact form.</p>
+                            <iframe 
+    class="embed-responsive-item" 
+    src="AlottaPasta/index.html" 
+    allowfullscreen 
+    style="width:100%; height:500px; border:none;">
+</iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Basic Calculator</h5>
+                        <p class="card-text">A C# Windows Form basic calculator</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Todo Web App</h5>
+                        <p class="card-text">A full stack web app with crud operations, front-end: TypeScript in React,
+                            back-end: Typescript in Express Database: SQLite</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mb-5">
+        <h2 class="section-title">Contact</h2>
+        <p>Email: <a href="mailto:aarongluck97@gmail.com">aarongluck97@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/AaronGluck97" target="_blank">github.com/AaronGluck97</a></p>
+        <p>Location: NYC, USA</p>
+    </section>
+
+    <footer class="text-center bg-dark text-light py-3">
+        &copy; 2025 Aaron Gluck
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
